@@ -13,3 +13,23 @@ datasets/
 # Archivos temporales de Jupyter Notebooks
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
+# Ignorar modelos y datasets pesados
+*.pkl
+*.csv
+selected_dataset/*.pkl
+selected_dataset/*.csv
+preprocesamiento_optimizacion/*.pkl
+
+# Ignorar modelos y datasets pesados
+*.pkl
+*.csv
+**/*.pkl
+**/*.csv
+
+*.pkl
+*.csv
+**/*.pkl
+**/*.csv
+selected_dataset/*.pkl
+selected_dataset/*.csv
+preprocesamiento_optimizacion/*.pkl
